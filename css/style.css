@@ -89,7 +89,7 @@ footer {
 	text-align: center;
 	clear: both;
 	padding-top: 50px;
-	border-top: 8px solid #00A0A3;
+	border-top: 8px solid #FF002F; /* Mango Divider Line */
 }
 
 footer img {
@@ -146,17 +146,17 @@ COLORS
 *********/
 
 body {
-	background-color: #FFEC5C; /* Yellow Background*/
+	background-color: #FFF8BA; /* Yellow Background*/
 	color: #FF002F; /* Mango Text */
 }
 
 header {
-	background: #FF002F; /* Mango Header*/
-	border-bottom: 8px solid #00A0A3; /* Cyan Bottom Line */
+	background: #15CCF1; /* Cyan Header*/
+	border-bottom: 8px solid #FF002F; /* Mango Bottom Line */
 }
 
 nav a {
-	background: #00A0A3; /* Cyan Buttons */
+	background: #FF002F; /* Mango Buttons */
 }
 
 /* logo text */
@@ -165,12 +165,12 @@ h1, h2 {
 }
 
 h3 {
-	color: #FF002F; /* Mango h3 */
+	color: #000; /* Black h3 */
 }
 
 article p {
-	color: #fff; /* White text */
-	background-color: #FF002F; /* Mango Background */
+	color: #000; /* Black text */
+	background-color: #15CCF1; /* Cyan Background */
 }
 
 
