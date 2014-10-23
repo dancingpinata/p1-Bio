@@ -1,0 +1,301 @@
+/*********
+GENERAL
+*********/
+
+body {
+	font-family:'Montserrat', sans-serif;
+}
+
+#container {
+  max-width: 940px;
+  margin: 0 auto;
+  padding: 0 10%;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+	max-width: 100%;
+}
+
+h3 {
+	margin: 0 0 1em 0;
+}
+
+/*********
+HEADING
+*********/
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+#logo {
+	text-align: center;
+	margin: 0;
+}
+
+h1 {
+	font-family: 'Montserrat', sans-serif;
+	margin: 15px 0;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 0.75em;
+	margin: -5px 0 0;
+	font-weight: normal;
+}
+
+
+/*********
+NAVIGATION
+*********/
+
+nav {
+	text-align: center;
+	padding: 10px 0;
+	margin: 20px 0 0;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0 10px;
+	padding: 0;
+}
+
+nav li {
+	display: inline-block;
+}
+
+nav a {
+	font-weight: 800;
+	border-radius: 25px;
+	padding: 15px 10px;
+}
+
+/*********
+FOOTER
+*********/
+
+footer {
+	font-size: .75em;
+	text-align: center;
+	clear: both;
+	padding-top: 50px;
+	border-top: 8px solid #00A0A3;
+}
+
+footer img {
+	width: 50px;
+	height: 50px;
+	margin: 0 5px;
+}
+
+
+/*********
+PAGE: HOME
+*********/
+
+.profile-photo {
+	display: block;
+	max-width: 150px;
+	margin: 0 auto 30px;
+	border-radius: 100%;
+}
+
+#gallery {
+	margin: 0;
+	padding: 0 0 20px 0;
+	list-style: none;
+}
+
+#gallery li {
+	float: left;
+	width: 50%;
+	margin: 20px 20px 20px 0;
+}
+
+#gallery img {
+	border: 7px solid #FF6714; /* Orange Frame */
+}
+
+article {
+	margin-left: 30px;
+	padding-left: 20px;
+}
+
+article h3{
+	text-align: center;
+}
+
+article img {
+	width: 45%;
+	border: 7px solid #FF6714; /* Orange Frame */
+}
+
+
+/*********
+COLORS
+*********/
+
+body {
+	background-color: #FFEC5C; /* Yellow Background*/
+	color: #FF002F; /* Mango Text */
+}
+
+header {
+	background: #FF002F; /* Mango Header*/
+	border-bottom: 8px solid #00A0A3; /* Cyan Bottom Line */
+}
+
+nav a {
+	background: #00A0A3; /* Cyan Buttons */
+}
+
+/* logo text */
+h1, h2 {
+	color: #fff; /* White h1 and h2 */
+}
+
+h3 {
+	color: #FF002F; /* Mango h3 */
+}
+
+article p {
+	color: #fff; /* White text */
+	background-color: #FF002F; /* Mango Background */
+}
+
+
+/* nav link */
+nav a, nav a:visited {
+	color: #fff; /* White Unselected Link */
+}
+
+/* selected nav link */
+nav a.selected, nav a:hover{
+	color: #FF6714; /* Orange Selected Link */
+}
+
+
+
+
+
+/*********
+GENERAL
+*********
+
+body {
+	background: #FFEC5C;
+	font-family: 'Montserrat', sans-serif
+}
+
+a {
+	text-decoration: none;
+	color: #00A0A3;
+}
+
+li {
+	list-style: none;
+}
+
+/*********
+HEADING
+*********
+
+header {
+	float: left;
+	margin: 0 0 30px 0;
+	padding: 5px 0 0 0;
+	width: 100%;
+}
+
+h1 {
+	margin: 15px 0;
+	padding: 0 0 0 20px;
+	font-size: 1.75em;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: 0.8em;
+	margin: -5px 0 0;
+	padding: 0 0 0 20px;
+	font-weight: normal;
+}
+
+/*********
+NAVIGATION
+*********
+
+nav ul li {
+	background: #FF002F;
+	color: #3DB8AD;
+	color: #00A0A3;
+
+	text-transform: uppercase;
+	float: right;
+	text-align: center;
+	font-weight: 900;
+
+	border-radius: 75px;
+	padding: 35px 25px;
+	margin: 20px 10px;
+}
+
+nav ul li.hover {
+	background-color: #FF5842;
+}
+
+/*********
+IMAGES
+*********
+
+.past-work li {
+	list-style: none;
+	float: left;
+}
+
+.past-work li img {
+	width: 40%;
+	border: 7px solid #FF6714;
+}
+
+/*********
+ABOUT ME
+*********
+
+article {
+	float: right;
+	margin: 20px 20px;
+}
+
+/*********
+LINKS/CONTACT
+*********
+
+footer {
+	border-top: 8px solid #FF002F;
+	padding: 10px 0px;
+	margin: 15px 0px;
+	text-align: center;
+	clear: both;
+}
+
+footer h3{
+	color: #00A0A3;
+}
+
+footer img {
+	max-width: 50px;
+	max-height: 50px;
+	margin: 0 5px;
+}
+**/
